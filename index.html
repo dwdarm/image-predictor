@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <title>Image Predictor</title>
+</head>
+<body>
+
+  <nav class="navbar is-info">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#"><strong>Image Predictor</strong></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="title is-4 has-text-centered">Enter your image's URL</h1>
+      
+      <div class="field has-addons has-addons-centered">
+        <div class="control">
+          <input id="image-url" class="input" type="text">
+        </div>
+        <div class="control">
+          <button id="predict" class="button is-info">Predict</button>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="section">
+    <div id="result" class="container"></div>
+  </section>
+
+</body>
+</html>
